@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/primary_background" android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Admin Dashboard" android:textColor="@color/primary_text" android:textSize="28sp" android:textStyle="bold" />
+    <TextView android:id="@+id/stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:background="@drawable/bg_card" android:padding="18dp" android:textColor="@color/primary_text" android:textSize="18sp" />
+    <Button android:id="@+id/logoutButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="18dp" android:text="Logout" />
+</LinearLayout>

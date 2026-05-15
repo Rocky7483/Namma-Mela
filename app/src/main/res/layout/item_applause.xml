@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="12dp">
+    <TextView android:id="@+id/fanName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/primary_text" android:textStyle="bold" />
+    <TextView android:id="@+id/time" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/secondary_text" android:textSize="12sp" />
+    <TextView android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:textColor="@color/secondary_text" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:orientation="horizontal">
+        <Button android:id="@+id/likeButton" android:layout_width="0dp" android:layout_height="42dp" android:layout_weight="1" />
+        <Button android:id="@+id/deleteButton" android:layout_width="110dp" android:layout_height="42dp" android:layout_marginStart="8dp" android:text="Delete" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/primary_background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/primary_text" android:textSize="30sp" android:textStyle="bold" />
+        <RadioGroup android:id="@+id/roleGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:orientation="horizontal">
+            <RadioButton android:id="@+id/userRole" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="User" />
+            <RadioButton android:id="@+id/adminRole" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18dp" android:text="Admin" />
+        </RadioGroup>
+        <EditText android:id="@+id/nameInput" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="12dp" android:background="@drawable/bg_card" android:hint="Full name" android:padding="12dp" />
+        <EditText android:id="@+id/emailInput" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="12dp" android:background="@drawable/bg_card" android:hint="Email" android:inputType="textEmailAddress" android:padding="12dp" />
+        <EditText android:id="@+id/passwordInput" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="12dp" android:background="@drawable/bg_card" android:hint="Password" android:inputType="textPassword" android:padding="12dp" />
+        <Button android:id="@+id/primaryButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="16dp" />
+        <Button android:id="@+id/secondaryButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="8dp" />
+        <Button android:id="@+id/forgotButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="6dp" android:text="Forgot password" />
+    </LinearLayout>
+</ScrollView>

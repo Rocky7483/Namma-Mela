@@ -1,0 +1,15 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph" app:startDestination="@id/loginFragment">
+    <fragment android:id="@+id/loginFragment" android:name="com.mindmatrix.nammamela.LoginFragment" />
+    <fragment android:id="@+id/signupFragment" android:name="com.mindmatrix.nammamela.SignupFragment" />
+    <fragment android:id="@+id/forgotPasswordFragment" android:name="com.mindmatrix.nammamela.ForgotPasswordFragment" />
+    <fragment android:id="@+id/homeFragment" android:name="com.mindmatrix.nammamela.HomeFragment" />
+    <fragment android:id="@+id/seatsFragment" android:name="com.mindmatrix.nammamela.SeatsFragment" />
+    <fragment android:id="@+id/bookingsFragment" android:name="com.mindmatrix.nammamela.BookingsFragment" />
+    <fragment android:id="@+id/fanWallFragment" android:name="com.mindmatrix.nammamela.FanWallFragment" />
+    <fragment android:id="@+id/profileFragment" android:name="com.mindmatrix.nammamela.ProfileFragment" />
+    <fragment android:id="@+id/castDetailFragment" android:name="com.mindmatrix.nammamela.CastDetailFragment" />
+    <fragment android:id="@+id/adminDashboardFragment" android:name="com.mindmatrix.nammamela.AdminDashboardFragment" />
+    <fragment android:id="@+id/adminNatakasFragment" android:name="com.mindmatrix.nammamela.AdminNatakasFragment" />
+    <fragment android:id="@+id/adminUsersFragment" android:name="com.mindmatrix.nammamela.AdminUsersFragment" />
+    <fragment android:id="@+id/adminBookingsFragment" android:name="com.mindmatrix.nammamela.AdminBookingsFragment" />
+</navigation>

@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.NammaMela" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_accent</item>
+        <item name="colorSecondary">@color/seat_selected</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/primary_background</item>
+        <item name="android:navigationBarColor">@color/primary_background</item>
+    </style>
+</resources>

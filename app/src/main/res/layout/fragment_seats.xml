@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/primary_background" android:orientation="vertical" android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Select Seats" android:textColor="@color/primary_text" android:textSize="26sp" android:textStyle="bold" />
+    <TextView android:id="@+id/availability" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/secondary_text" />
+    <TextView android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginTop="10dp" android:background="@drawable/bg_stage" android:gravity="center" android:text="STAGE" android:textColor="@color/primary_background" android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/seatGrid" android:layout_width="match_parent" android:layout_height="230dp" android:layout_marginTop="12dp" />
+    <TextView android:id="@+id/selectedSeats" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/primary_text" android:textStyle="bold" />
+    <Button android:id="@+id/bookButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="8dp" android:text="Book Seats" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Cast" android:textColor="@color/primary_text" android:textSize="20sp" android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/castList" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginTop="8dp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/primary_background" android:orientation="vertical" android:padding="20dp">
+    <TextView android:id="@+id/profileName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/primary_text" android:textSize="28sp" android:textStyle="bold" />
+    <TextView android:id="@+id/profileEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/secondary_text" />
+    <TextView android:id="@+id/role" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/primary_accent" android:textStyle="bold" />
+    <Button android:id="@+id/logoutButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="18dp" android:text="Logout" />
+</LinearLayout>

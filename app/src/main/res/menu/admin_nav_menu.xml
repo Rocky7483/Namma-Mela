@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/adminDashboardFragment" android:icon="@drawable/ic_home" android:title="Dashboard" />
+    <item android:id="@+id/adminNatakasFragment" android:icon="@drawable/ic_seat" android:title="Natakas" />
+    <item android:id="@+id/adminUsersFragment" android:icon="@drawable/ic_admin" android:title="Users" />
+    <item android:id="@+id/adminBookingsFragment" android:icon="@drawable/ic_wall" android:title="Bookings" />
+</menu>
